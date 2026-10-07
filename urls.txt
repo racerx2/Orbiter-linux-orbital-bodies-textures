@@ -1,0 +1,5 @@
+https://mirror.orbiter-radio.uk/orbiter/assets/packages/Earth/EarthLo.zip
+https://mirror.orbiter-radio.uk/orbiter/assets/packages/Earth/Earth_Cloud.zip
+https://mirror.orbiter-radio.uk/orbiter/assets/packages/Moon_v2/MoonLo.zip
+https://mirror.orbiter-radio.uk/orbiter/assets/packages/Mars_v2/MarsLo.zip
+https://mirror.orbiter-radio.uk/orbiter/assets/packages/MinorBodies/MinorBodies.zip

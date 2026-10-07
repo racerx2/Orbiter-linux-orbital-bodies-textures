@@ -1,0 +1,40 @@
+Planet and moon tiles (TileFormat 2) for the Linux port of Orbiter
+https://github.com/racerx2/orbiter-linux
+
+Unzip a package into the Orbiter folder; it adds Textures/<Body>/Surf or Cloud.
+md5.txt has the checksums. Earth, Moon, Mars and the minor bodies are the
+Orbiter packages in urls.txt.
+
+Ganymede: Askaniy Anpilogov, USGS, Björn Jónsson and NASA/JPL-Caltech/SwRI/MSSS/Brian Swift, Ganymede map (2019)
+Callisto: Askaniy Anpilogov and John van Vliet, Callisto map (2019)
+Saturn: Askaniy Anpilogov and Björn Jónsson, Saturn map
+  Wikimedia Commons, CC BY-SA 3.0; the tiles made from these three maps are under the same licence
+  https://commons.wikimedia.org/wiki/File:Ganymede_map_by_Askaniy.png
+  https://commons.wikimedia.org/wiki/File:Callisto_map_by_Askaniy.png
+  https://commons.wikimedia.org/wiki/File:Saturn_map_by_Askaniy.png
+
+Io: USGS Astrogeology Science Center, Io Galileo SSI/Voyager Color Merged Global Mosaic 1 km
+Europa: USGS Astrogeology Science Center, Europa Voyager and Galileo SSI Global Mosaic 500 m;
+  colour fitted on the Galileo colour image PIA19048 (NASA/JPL-Caltech/SETI Institute)
+  https://photojournal.jpl.nasa.gov/catalog/PIA19048
+
+Mercury: LobedHomunculus, Mercury texture map from the USGS MESSENGER MDIS global colour mosaic,
+  Wikimedia Commons, CC BY 4.0
+  https://commons.wikimedia.org/wiki/File:Mercury_Texture_Map.png
+
+Uranus: Solar System Scope, CC BY 4.0
+  https://commons.wikimedia.org/wiki/File:Solarsystemscope_texture_2k_uranus.jpg
+
+Triton: Paul Schenk, Lunar and Planetary Institute, Voyager 2 global map (NASA/JPL-Caltech/LPI),
+  on the earlier Orbiter map where Voyager saw nothing
+  https://commons.wikimedia.org/wiki/File:Triton_map_no_grid.jpg
+
+Pluto and Charon: New Horizons LORRI/MVIC global mosaics, 300 m/px (NASA/Johns Hopkins University
+  Applied Physics Laboratory/Southwest Research Institute/Lunar and Planetary Institute);
+  Schenk et al., Icarus 314 and 315 (2018); colour from the New Horizons MVIC global colour
+  mosaics (PDS Small Bodies Node, doi:10.26007/mc7j-ef52)
+  https://planetarymaps.usgs.gov/mosaic/
+
+Venus and its clouds, Titan and its clouds, Hyperion, Miranda, Ariel, Umbriel, Titania, Oberon,
+Neptune, Triton's clouds, Proteus, Nereid: made from the textures that ship with Orbiter
+(see Orbiter's credits).

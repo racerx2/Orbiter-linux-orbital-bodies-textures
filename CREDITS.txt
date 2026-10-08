@@ -1,9 +1,9 @@
-Planet and moon tiles (TileFormat 2) for the Linux port of Orbiter
-https://github.com/racerx2/orbiter-linux
+Planet and moon tiles (TileFormat 2) for Orbiter 2027 Linux
+https://github.com/racerx2/orbiter-2027-linux
 
-Unzip a package into the Orbiter folder; it adds Textures/<Body>/Surf or Cloud.
-md5.txt has the checksums. Earth, Moon, Mars and the minor bodies are the
-Orbiter packages in urls.txt.
+The zips are in this repository's releases, one per body and layer (<Body>_<Layer>.zip).
+Orbiter's Launchpad downloads and installs the missing ones; by hand, unzip a pack into the
+Orbiter folder, it adds Textures/<Body>/<Layer>. md5.txt has the checksums.
 
 Ganymede: Askaniy Anpilogov, USGS, Björn Jónsson and NASA/JPL-Caltech/SwRI/MSSS/Brian Swift, Ganymede map (2019)
 Callisto: Askaniy Anpilogov and John van Vliet, Callisto map (2019)
@@ -38,3 +38,16 @@ Pluto and Charon: New Horizons LORRI/MVIC global mosaics, 300 m/px (NASA/Johns H
 Venus and its clouds, Titan and its clouds, Hyperion, Miranda, Ariel, Umbriel, Titania, Oberon,
 Neptune, Triton's clouds, Proteus, Nereid: made from the textures that ship with Orbiter
 (see Orbiter's credits).
+
+Earth, Moon, Mars, Phobos, Deimos, Vesta, Jupiter, Mimas, Enceladus, Tethys, Dione, Rhea, Iapetus:
+Orbiter's EarthLo, Earth_Cloud, MoonLo, MarsLo and MinorBodies packages, split per layer
+(see Orbiter's credits). Their sources include:
+  Earth land surface: custom processed from Landsat 7 ETM orthorectified imagery
+  Earth water, night lights and clouds: NASA Visible Earth Blue Marble maps
+  Earth elevation: SRTM 90 m Digital Elevation Data by NASA, released by USGS; CGIAR-CSI version 4
+  Moon surface: LRO LROC-WAC Global Mosaic 100 m June 2013, Arizona State University, Astrogeology Science Center
+  Moon elevation: LOLA-GDR/Cylindrical
+  Mars surface: NASA MGS/MOC, Mars Odyssey THEMIS-IR Day Global Mosaic 100 m v12, Viking MDIM2.1 Colorized Global Mosaic 232 m
+  Mars elevation: MOLA Mars elevation data at 128 pixels per degree
+  Vesta surface and elevation: Dawn FC HAMO Global Mosaic 60 m/px, Dawn HAMO DTM Global 93 m/px
+  Jupiter: Cassini's best map of Jupiter, NASA/JPL/Space Science Institute (CICLOPS); cloud map by Rolf Keibel

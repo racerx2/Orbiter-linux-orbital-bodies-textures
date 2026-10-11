@@ -1,9 +1,12 @@
 Planet and moon tiles (TileFormat 2) for Orbiter 2027 Linux
 https://github.com/racerx2/orbiter-2027-linux
 
-The zips are in this repository's releases, one per body and layer (<Body>_<Layer>.zip).
+The zips are in this repository's releases, one per body and layer (<Body>_<Layer>.zip); Earth
+comes as high-resolution .tree archives in 1 GiB parts (Earth_<Layer>.tree.NN).
 Orbiter's Launchpad downloads and installs the missing ones; by hand, unzip a pack into the
-Orbiter folder, it adds Textures/<Body>/<Layer>. md5.txt has the checksums.
+Orbiter folder, it adds Textures/<Body>/<Layer>, and join an archive's parts with cat into
+Textures/Earth/Archive/<Layer>.tree. md5.txt has the checksums of the release files,
+md5-archives.txt those of the joined archives.
 
 Ganymede: Askaniy Anpilogov, USGS, Björn Jónsson and NASA/JPL-Caltech/SwRI/MSSS/Brian Swift, Ganymede map (2019)
 Callisto: Askaniy Anpilogov and John van Vliet, Callisto map (2019)
@@ -39,9 +42,10 @@ Venus and its clouds, Titan and its clouds, Hyperion, Miranda, Ariel, Umbriel, T
 Neptune, Triton's clouds, Proteus, Nereid: made from the textures that ship with Orbiter
 (see Orbiter's credits).
 
-Earth, Moon, Mars, Phobos, Deimos, Vesta, Jupiter, Mimas, Enceladus, Tethys, Dione, Rhea, Iapetus:
-Orbiter's EarthLo, Earth_Cloud, MoonLo, MarsLo and MinorBodies packages, split per layer
-(see Orbiter's credits). Their sources include:
+Earth: Orbiter's 2016 high-resolution Earth archives (Surf, Mask, Elev, Elev_mod and Cloud .tree),
+cut into 1 GiB parts. Moon, Mars, Phobos, Deimos, Vesta, Jupiter, Mimas, Enceladus, Tethys, Dione,
+Rhea, Iapetus: Orbiter's MoonLo, MarsLo and MinorBodies packages, split per layer.
+See Orbiter's credits; their sources include:
   Earth land surface: custom processed from Landsat 7 ETM orthorectified imagery
   Earth water, night lights and clouds: NASA Visible Earth Blue Marble maps
   Earth elevation: SRTM 90 m Digital Elevation Data by NASA, released by USGS; CGIAR-CSI version 4
